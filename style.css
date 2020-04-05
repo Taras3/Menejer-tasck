@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Tahoma;
+}
+header div{
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0 10px;
+}
+.sign{
+    background-color: darkred;
+}
+.log{
+    background-color: darkcyan;
+}
+input[type="button"]{
+    background-color: coral
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 40px;
+    background-color: cadetblue;
+}
+h1{
+    text-align: center;
+    padding: 40px;
+}
+.form, .form2{
+    width: 300px;
+    height: 170px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin: 0 auto;
+    display: none;
+}
+.form p, .form2 p{
+    text-align: center;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.form input, .form2 input{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 25px;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.ToDoTask{
+    width: 500px;
+    min-height: 250px;
+    height: auto;
+    background-color: forestgreen;
+    margin: 0 auto;
+    padding: 15px
+}
+.ToDoTask form input{
+    border: none;
+    width: 200px;
+    height: 25px;
+    margin-bottom: 15px;
+}
+header p{
+    line-height: 16px;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+}
+li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+li p{
+    margin-right: 10px;
+}
+#id, #idDel{
+    width: 25px;
+    height: 25px;
+    background-color: beige;
+    border:1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+textarea{
+    width: 200px;
+    min-height: 100px;
+    height: auto;
+}
+.ToDoTask form{
+    display: block!important;
+}

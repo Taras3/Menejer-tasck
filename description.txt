@@ -1,0 +1,9 @@
+The registration is created
+a list creation form.
+When you enter an already registered email when you register, it will show that it already exists.
+If not filled in either email or passport will also show an error.
+After registration
+the list form opens.
+It is possible to add tasks, delete them.
+Added tasks
+are automatically added to the form that will open when logged in with the same email.
